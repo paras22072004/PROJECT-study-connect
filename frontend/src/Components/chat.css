@@ -1,0 +1,135 @@
+.main1chat {
+  max-width: 500px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.12);
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  background: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+}
+
+.chath2 {
+  text-align: center;
+  padding: 15px 0;
+  font-weight: 700;
+  font-size: 1.8rem;
+  border-bottom: 1px solid #eee;
+  color: #222;
+}
+
+.chat1st {
+  flex-grow: 1;
+  padding: 15px 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #fefefe;
+  scrollbar-width: thin;
+  scrollbar-color: #bbb transparent;
+}
+
+.chat1st::-webkit-scrollbar {
+  width: 6px;
+}
+.chat1st::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 3px;
+}
+
+.mb-2 {
+  max-width: 70%;
+  word-wrap: break-word;
+  padding: 10px 15px;
+  border-radius: 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  background-color: #ececec;
+  color: #333;
+}
+
+.text-right.mb-2 {
+  align-self: flex-end;
+  background-color: #2f80ed;
+  color: white;
+}
+
+.csmall1 {
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+  opacity: 0.8;
+}
+
+.csmall2 {
+  font-size: 0.7rem;
+  margin-top: 6px;
+  opacity: 0.6;
+  text-align: right;
+}
+
+.chatform {
+  display: flex;
+  padding: 12px 15px;
+  border-top: 1px solid #eee;
+  background-color: #fafafa;
+}
+
+.inputc {
+  flex-grow: 1;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.25s ease;
+}
+
+.inputc:focus {
+  border-color: #2f80ed;
+}
+
+.chatbtn {
+  background-color: #2f80ed;
+  color: white;
+  border: none;
+  padding: 0 18px;
+  margin-left: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.chatbtn:hover {
+  background-color: #2565c4;
+}
+
+@media (max-width: 480px) {
+  .mainchat {
+    width: 95%;
+    height: 70vh;
+  }
+  .mb-2 {
+    max-width: 90%;
+  }
+}
+.dashboard-btn {
+  background-color: #007bff;
+  color: white;        
+  padding: 10px 20px;    
+  border: none;      
+  border-radius: 5px;  
+  cursor: pointer;                
+  font-size: 16px;               
+  transition: background-color 0.3s ease;
+  margin-bottom: 15px;            
+  display: inline-block;
+}
+
+.dashboard-btn:hover {
+  background-color: #0056b3;    
+}

@@ -1,0 +1,148 @@
+.divmain {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+.h1dash {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
+
+
+.divmain p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+
+.listul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.listul li {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+
+.listli {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.listul li:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+}
+
+
+@media (max-width: 480px) {
+  .h1dash {
+    font-size: 2rem;
+  }
+  .divmain p {
+    font-size: 1rem;
+  }
+  .listul li {
+    font-size: 1rem;
+    padding: 12px;
+  }
+}
+
+
+
+/* teacher */
+
+.tmain {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #a2c2e9, #667eea); /* Soft Blue to Cool Purple */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.th1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+.tmain p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.tul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tul li {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+.tl {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.tul li:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 480px) {
+  .th1 {
+    font-size: 2rem;
+  }
+  .tmain p {
+    font-size: 1rem;
+  }
+  .tul li {
+    font-size: 1rem;
+    padding: 12px;
+  }
+}
+
