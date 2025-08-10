@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './Login.css';
 
-const API = 'http://localhost:5000/api/auth';
+const API = 'https://project-study-connect-backend.onrender.com/api/auth';
 
 export default function Login(){
   const [email,setEmail] = useState('');
