@@ -21,7 +21,7 @@ app.use('/api/messages', require('./Routes/MessageRoute'));
 const io = new Server(server, {
   cors: { origin: '*' } 
 });
-require('./socket')(io);
+require('./Socket')(io);
 
 
 const PORT = process.env.PORT || 5000;
