@@ -1,18 +1,3 @@
-// const Message = require('../models/messagemodels');
-
-// exports.getMessages = async (req, res) => {
-//   const messages = await Message.find().sort({ timestamp: 1 });
-//   res.json(messages);
-// };
-
-// exports.sendMessage = async (req, res) => {
-//   const { sender, content } = req.body;
-//   const message = await Message.create({ sender, content });
-//   res.status(201).json(message);
-// };
-
-
-
 const Message = require('../models/messagemodels');
 
 exports.getMessages = async (req, res) => {
