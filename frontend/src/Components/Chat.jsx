@@ -4,8 +4,8 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './chat.css'
 
-const SOCKET_URL = 'http://localhost:5000';
-const API_MESSAGES = 'http://localhost:5000/api/messages';
+const SOCKET_URL = 'https://project-study-connect-backend.onrender.com';
+const API_MESSAGES = 'https://project-study-connect-backend.onrender.com/api/messages';
 
 export default function ChatRoom(){
   const [socket, setSocket] = useState(null);
